@@ -25,7 +25,7 @@ class    ListByPercent extends React.Component  {
   { 
     var data =[]
     
-    const url = 'http://localhost:8080/colleges';
+    const url = 'https://f7ybz24ol7.execute-api.us-east-1.amazonaws.com/dev/colleges/meritaid';
     axios.get(url)
       .then(res => {
          data  = res.data; 
