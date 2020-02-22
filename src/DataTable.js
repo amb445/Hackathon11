@@ -40,10 +40,13 @@ class DataTable extends Component {
         <TableHead>
           <TableRow>
             <TableCell>College</TableCell>
-            <TableCell align="center">Maximum Amount</TableCell>
-            <TableCell align="center">Maximum Percentage</TableCell>
+            <TableCell align="center">Total Amount</TableCell>
             <TableCell align="center">Number of Students</TableCell>
-            <TableCell align="center">Early Admission</TableCell>
+            <TableCell align="center">Percentage of students with Aids</TableCell>
+            <TableCell align="center">Average Aid </TableCell>
+            <TableCell align="center">Federal Aid - Total</TableCell>
+            <TableCell align="center">Local Grand Aid - Total</TableCell>
+            <TableCell align="center">Instistituational Aid </TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -52,10 +55,12 @@ class DataTable extends Component {
               <TableCell component="th" scope="row">
                 {row.college}
               </TableCell>
-              <TableCell align="center">{row.MaximumAmount}</TableCell>
-              <TableCell align="center">{row.MaximumPercentage}</TableCell>
+              <TableCell align="center">{row.TotalAmount }</TableCell>
               <TableCell align="center">{row.NumberofStudents}</TableCell>
-              <TableCell align="center">{row.EarlyAdmission}</TableCell>
+              <TableCell align="center">{row.PercentageofStudents}</TableCell>
+              <TableCell align="center">{row.AverageAid}</TableCell>
+              <TableCell align="center">{row.FederalAidTotal}</TableCell>
+              <TableCell align="center">{row.InstitutionalAid}</TableCell>
             </TableRow>
           ))}
         </TableBody>
