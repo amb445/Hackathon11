@@ -33,10 +33,10 @@ function App() {
               <Link to="/" exact={true}> Percentage</Link>
             </li>
             <li className="RowStyle">
-              <Link to="/MaxAmount">  Amount</Link>
+              <Link to="/MaxAmount">  Percentage</Link>
             </li>
             <li className="RowStyle">
-              <Link to="/MaxStudents"> Students</Link>
+              <Link to="/MaxStudents"> Percentage</Link>
             </li >
           </ul>
          
