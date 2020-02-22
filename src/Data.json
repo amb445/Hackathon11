@@ -1,0 +1,20 @@
+{
+    "CollegeList": [
+        {
+          "id": 1,
+          "college": "college 1",
+          "maximumamount": "1000"               
+        },
+        {
+            "id": 2,
+            "college": "college 2",
+            "maximumamount": "2000"        
+        },
+        {
+            "id": 3,
+            "college": "college 3",
+            "maximumamount": "3000"       
+        }
+      ]
+    
+  }
