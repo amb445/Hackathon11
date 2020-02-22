@@ -33,10 +33,10 @@ function App() {
               <Link to="/" exact={true}> Percentage</Link>
             </li>
             <li className="RowStyle">
-              <Link to="/MaxAmount">  Percentage</Link>
+              <Link to="/MaxAmount">  Amount</Link>
             </li>
             <li className="RowStyle">
-              <Link to="/MaxStudents"> Percentage</Link>
+              <Link to="/MaxStudents"> Students</Link>
             </li >
           </ul>
          
@@ -45,7 +45,7 @@ function App() {
           <div style={{ flex: 1, padding: "10px" }}>
           
              <Route exact path="/" component={ListByPercent}/>
-            <Route path="/Amount" component={DataTable}/>         
+            <Route path="/Amount" component={ListByPercent}/>         
           </div>
         </div>
       </HashRouter>
