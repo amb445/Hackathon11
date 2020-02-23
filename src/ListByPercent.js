@@ -23,7 +23,7 @@ class    ListByPercent extends React.Component  {
   
   componentDidMount() 
   { 
-      document.title = 'Your page title here';
+      document.title = 'College Financial Data';
     var data =[]
     
     const url = 'https://f7ybz24ol7.execute-api.us-east-1.amazonaws.com/dev/colleges/meritaid';
