@@ -26,7 +26,7 @@ function App() {
           <div className="navbar-header">
          
 
-          <a className="navbar-brand" href="#"><h4>College Financial Data</h4></a>
+          <h2 >College Financial Data</h2>
       </div>      
             <ul style={{ listStyleType: "none", padding: 20 }}>
             <li className="RowStyle">
