@@ -30,22 +30,23 @@ function App() {
       </div>      
             <ul style={{ listStyleType: "none", padding: 20 }}>
             <li className="RowStyle">
-              <Link to="/" exact={true}> Percentage</Link>
+              <Link to="/" exact={true}> Amount</Link>
             </li>
             <li className="RowStyle">
-              <Link to="/MaxAmount">  Amount</Link>
+              <Link to="/Percentage">  Percentage</Link>
             </li>
             <li className="RowStyle">
-              <Link to="/MaxStudents"> Students</Link>
+              <Link to="/State"> State</Link>
             </li >
           </ul>
          
     
           </div>      
-          <div style={{ flex: 1, padding: "10px" }}>
+          <div style={{ flex: 1, padding: "10px", margin: "20px" }}>
           
-             <Route exact path="/" component={ListByPercent}/>
-            <Route path="/Amount" component={ListByPercent}/>         
+            <Route exact path="/" component={ListByPercent}/>
+            <Route path="/Percentage" component={ListByPercent}/>       
+            <Route path="/State" component={ListByPercent}/>    
           </div>
         </div>
       </HashRouter>
